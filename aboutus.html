@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://kit.fontawesome.com/710a6428b2.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="./Group 718.jpg" alt="" />
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div>
+                    <ul class="links">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About us</a></li>
+                        <li><a href="#username">Contact us</a></li>
+                        <li>
+                            <div class="cart-btn">
+                                <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                                <p class="cart-items">0</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <!-- <img src="./images/samosa.jpg" alt=""> -->
+                    <P><a href="{{url_for('profile')}}"> USER</a></P>
+                </div>
+                <div class="exit">
+                    <a href="{{url_for('logout')}}">Logout<i class="fa-duotone fa-arrow-right-from-bracket"></i></a>
+
+                </div>
+            </div>
+        </nav>
+        <section>
+            <header class="hero2">
+                <div class="banner">
+                    <h1 class="banner-title">About us</h1>
+                </div>
+            </header>
+        </section>
+        <section>
+            <div class="about">
+
+                <h1>Apna Canteen</h1>
+                <div class="aboutblock">
+                    <div class="aboutpara">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos dicta optio, officiis expedita
+                            tempora
+                            aut animi iste suscipit minus dolorum. Recusandae rem ad velit quidem non maxime minus, ut
+                            laudantium perferendis blanditiis? Quod dolores labore officiis perspiciatis totam accusamus
+                            delectus!
+                        </p>
+                    </div>
+                    <div class="aboutimage">
+                        <img src="./images/pastery.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="weoffer">
+                <h1>What we offer</h1>
+                <div class="cards">
+                    <div class="card3">
+                        <img src="./images/provide/EGG.png" alt="">
+                        <h3>Breakfast</h3>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </div>
+                    </div>
+                    <div class="card3 mid">
+                        <img src="./images/provide/LUNCH.png" alt="">
+                        <h3>Lunch</h3>
+                        <div>Lorem ipsum dolor sit amet consectetur.</div>
+                    </div>
+                    <div class="card3">
+                        <img src="./images/provide/SNACKS.png" alt="">
+                        <h3>Snacks and drinks</h3>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="missionandvision">
+                <p class="mvhead">Mission and Vision</p>
+                <div class="box">
+                    <div class="mission">
+                        <img src="./images/ourmission.jpg" alt="">
+                        <div class="p">
+                            <div class="mhead">
+                                <p>OUR MISSION
+                                </p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore excepturi optio
+                                atque
+                                dolorum voluptate itaque sed, corrupti sit, hic cum expedita quae perferendis libero
+                                saepe
+                                provident, non nesciunt fuga.</p>
+                        </div>
+                    </div>
+                    <div class="vision">
+                        <img src="./images/our vision.jpg" alt="">
+                        <div class="p">
+                            <div class="mhead">
+                                <p>OUR VISION</p>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ratione porro corporis
+                                nam ab
+                                aliquam voluptatem dolore, fugiat accusamus, perspiciatis incidunt deleniti sunt
+                                adipisci
+                                illum sint et omnis aut asperiores!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="form2">
+                    <h1>Contact Form</h1>
+                    <form class="formgroup1" action="{{url_for('contact')}}" method="post" autocomplete="off">
+                        <div class="form-element">
+                            <div><label for="name">Name :</label></div>
+                            <input type="text" name="username" id="username" placeholder="Enter your name" />
+                        </div>
+                        <div class="form-element">
+                            <div>
+                                <label for="text">Email-id :</label>
+                            </div>
+                            <input type="email" name="email" id="email" placeholder="Enter your name" />
+                        </div>
+                        <div class="form-element">
+                            <div>
+                                <label for="review">Message :</label>
+                            </div>
+                            <input type="text" name="message" id="message" placeholder="Enter your Message"
+                                style="height: 76px" />
+                            <button type="submit" class="btn btn-primary btn-block"
+                                style="position: relative; left: 5rem !important;">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="site-map">
+                    <h1>Site-map</h1>
+                    <ul class="pages">
+                        <li><a href="#"> Breakfast</a></li>
+                        <li><a href="#"> Lunch</a></li>
+                        <li><a href="#"> Snacks</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Write a reccomendation</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div class="img">
+                        <img src="../static/Group 718.jpg" alt="" />
+                        <!-- <h1></h1> -->
+                    </div>
+                    <div class="para">
+                        <p1>Phone no.: xxxxxxxx96</p1>
+                        <p1>Email-id: x@gmail.com</p1>
+                        <p1>Address: Shyam Lal College, Shahdra
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>Your Cart</h2>
+                <div class="cart-content">
+                    <!-- Cart items-->
+                </div>
+                <div class="cart-footer">
+                    <h3>your total : ₹<span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">Clear Cart</button>
+                </div>
+                <div class="sendmail">
+                    <a href="{{url_for('booked')}}" method="post" autocomplete="off"><button
+                            type="submit">Confirm</button></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./scripts/app.js" crossorigin="anonymous"></script>
+    </body>
+
+</html>

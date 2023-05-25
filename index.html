@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/710a6428b2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="nav-center">
+        <div class="nav-header">
+          <img src="./Group 718.jpg" alt="" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div>
+          <ul class="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutus.html">About us</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
+            <li>
+              <div class="cart-btn">
+                <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <p class="cart-items">0</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <!-- <img src="./images/samosa.jpg" alt=""> -->
+          <P><a href="{{url_for('profile')}}"> USER</a></P>
+        </div>
+        <div class="exit">
+          <a href="{{url_for('logout')}}">Logout<i class="fa-duotone fa-arrow-right-from-bracket"></i></a>
+
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <form action="" class="formgroup">
+        <div class="form">
+          <h1>I'm hungry !!</h1>
+        </div>
+        <div class="form-element">
+          <div class="group-1">
+            <label for="location">Location:</label>
+            <select name="location" id="location">
+              <option value="class 1">Class 101</option>
+              <option value="class 2">Class 102</option>
+              <option value="class 3">Class 103</option>
+              <option value="class 4">Class 104</option>
+              <option value="class 5">Class 105</option>
+              <option value="class 6">Class 106</option>
+              <option value="class 7">Class 107</option>
+              <option value="class 8">Class 108</option>
+              <option value="class 9">Class 109</option>
+              <option value="class 10">Class 210</option>
+              <option value="class 11">Class 211</option>
+              <option value="class 12">Class 212</option>
+              <option value="class 13">Class 213</option>
+            </select>
+          </div>
+          <div>
+            <label for="food">
+              Take me to the food:
+            </label>
+            <select name="list-2" id="selectfood" onchange="window.location.href=this.value;">
+              <option value="#"><a href="#">Select</a></option>
+              <option value="#populars">Popular Items</option>
+              <option value="#foodiezone">Foodie Zone</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+    <main>
+      <!-- TABLE AND BOOKING -->
+      <section class="section1">
+        <div class="container-fluid">
+          <div class="head-2">
+            <h1>Available</h1>
+          </div>
+          <div class="card-set">
+            <div class="card">
+              <img src="./images/samosa.jpg" alt="" />
+              <div class="orderfood">order food</div>
+            </div>
+            <div class="card">
+              <img src="./images/parantha.jpg" alt="" />
+              <div class="breakfast">Book a table</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HOW DOES IT WORK SECTION -->
+      <section class="section2">
+        <div class="how">
+          <div class="does">
+            <h1>How does it work</h1>
+          </div>
+          <div class="steps">
+            <div class="first">
+              <div class="icon">
+                <img src="./Map Marker.png" alt="">
+              </div>
+              <h1>Select location</h1>
+              <p>Choose the location where your food will be delivered.</p>
+            </div>
+            <div class="first">
+              <div class="icon">
+                <img src="./menu 2.png" alt="">
+              </div>
+              <h1>Choose order</h1>
+              <p>Check over hundreds of menus to pick your food</p>
+            </div>
+            <div class="first">
+              <div class="icon">
+                <img src="./Invoice.png" alt="">
+              </div>
+              <h1>Pay advance</h1>
+              <p>It's quick, safe and simple. Select several methods of payment</p>
+            </div>
+            <div class="first">
+              <div class="icon">
+                <img src="./donut 1.png" alt="">
+              </div>
+              <h1>Enjoy meals</h1>
+              <p>Food is made and delivered directly to your desk </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DISCOUNTS SECTION -->
+      <section class="section3">
+        <div class="discounts">
+          <div class="discounthead">
+            <h1>Discounts for you to grab!</h1>
+          </div>
+          <div class="discount1">
+            <div class="left">
+              <img src="./images/pastery.jpg" alt="">
+              
+            </div>
+            <div class="circle">50% off</div>
+            <div class="right">
+              <div class="itemname">Pastery</div>
+              <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloremque tempore
+                corporis
+                at dolores? Debitis at quidem quia nesciunt illum.</div>
+            </div>
+          </div>
+          <div class="discount1">
+            <div class="left"><img src="./images/samosa.jpg" alt="">
+            </div>
+            <div class="circle">20% off</div>
+            <div class="right">
+              <div class="itemname">Samosa</div>
+              <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet praesentium aliquid dolore
+                tempore alias voluptatum quo suscipit doloremque, laudantium delectus!</div>
+            </div>
+          </div>
+          <div class="discount1">
+            <div class="left"><img src="./images/pasta.jpg" alt="">
+        
+            </div>
+            <div class="circle">50% off</div>
+            <div class="right">
+              <div class="itemname">Pasta</div>
+              <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laboriosam quis
+                debitis
+                mollitia distinctio voluptatum eos excepturi eum voluptate dolore!</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- POPULARS SECTION -->
+      <section class="populars" id="populars">
+        <div class="head">
+          <h1>Popular Food</h1>
+        </div>
+        <div class="new">
+          <!-- <article class="card-2">
+          <img src="./images/pasta.jpg" alt="" />
+          <div class="breakfast">Breakfast</div>
+          <p>₹20</p>
+          <div class="btn">
+            <a href="#">order</a>
+          </div>
+        </article> -->
+        </div>
+      </section>
+      <section class="section5">
+        <div class="categorie">
+          <div class="icon-1">
+            <div><img src="./images/provide/EGG.png" alt=""></div>
+            <div class="p">Breakfast</div>
+          </div>
+          <div class="icon-2">
+            <img src="./images/provide/LUNCH.png" alt="">
+            <div class="p">Lunch</div>
+          </div>
+          <div class="icon-3">
+            <img src="./images/provide/SNACKS.png" alt="">
+            <div class="p">Snacks and drinks</div>
+          </div>
+        </div>
+      </section>
+      <section class="section6">
+        <div class="foodiezone" id="foodiezone">
+          <div>
+            <h1>Foodie Zone</h1>
+          </div>
+          <div class="foodiemain">
+            <div class="uppermenu">
+              <!--Items-->
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER SECTION -->
+      <footer>
+        <div class="footer">
+          <div class="form2">
+            <h1>Contact Form</h1>
+            <form class="formgroup1" action="{{url_for('contact')}}" method="post" autocomplete="off">
+              <div class="form-element">
+                <div><label for="name">Name :</label></div>
+                <input type="text" name="username" id="username" placeholder="Enter your name" />
+              </div>
+              <div class="form-element">
+                <div>
+                  <label for="text">Email-id :</label>
+                </div>
+                <input type="email" name="email" id="email" placeholder="Enter your name" />
+              </div>
+              <div class="form-element">
+                <div>
+                  <label for="review">Message :</label>
+                </div>
+                <input type="text" name="message" id="message" placeholder="Enter your Message" style="height: 76px" />
+                <button type="submit" class="btn btn-primary btn-block"
+                  style="position: relative; left: 5rem !important;">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="site-map">
+            <h1>Site-map</h1>
+            <ul class="pages">
+              <li><a href="#"> Breakfast</a></li>
+              <li><a href="#"> Lunch</a></li>
+              <li><a href="#"> Snacks</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Write a reccomendation</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <div class="img">
+              <img src="./Group 718.jpg" alt="" />
+              <!-- <h1></h1> -->
+            </div>
+            <div class="para">
+              <p1>Phone no.: xxxxxxxx96</p1>
+              <p1>Email-id: x@gmail.com</p1>
+              <p1>Address: Shyam Lal College, Shahdra
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end of footer -->
+      <!-- Cart -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+          </span>
+          <h2>Your Cart</h2>
+          <div class="cart-content">
+            <!-- Cart items-->
+          </div>
+          <div class="cart-footer">
+            <h3>your total : ₹<span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">Clear Cart</button>
+          </div>
+          <div class="sendmail">
+            <a href="{{url_for('booked')}}" method="post" autocomplete="off"><button type="submit">Confirm</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- end of Cart -->
+    </main>
+    <!-- CONTENTFUL -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script type="text/javascript" src="./scripts/app.js" crossorigin="anonymous"></script>
+    </script>
+  </body>
+
+</html>

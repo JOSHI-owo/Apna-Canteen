@@ -1,0 +1,162 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Boiled Egg",
+        "price": 10,
+        "image": { "fields": { "file": { "url": "./images/EGG_IMAGE.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Fried Rice",
+        "price": 40,
+        "image": { "fields": { "file": { "url": "./images/freid_rice.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Schezwan Noodle",
+        "price": 70,
+        "image": {
+          "fields": { "file": { "url": "./images/schezwan_noodles.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Egg and Salad roll ",
+        "price": 40,
+        "image": {
+          "fields": { "file": { "url": "./images/eggandsaladroll.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": " Banana smoothie",
+        "price": 10,
+        "image": {
+          "fields": { "file": { "url": "./images/Bananasmoothie.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Cheese Toasties",
+        "price": 30,
+        "image": { "fields": { "file": { "url": "./images/toasties.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": " Fusion Juice",
+        "price": 20,
+        "image": {
+          "fields": { "file": { "url": "./images/fusion_juice.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": " Vegetarian Pizza ",
+        "price": 150,
+        "image": { "fields": { "file": { "url": "./images/vegpizza.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Aloo patties",
+        "price": 40,
+        "image": { "fields": { "file": { "url": "./images/aloopattie.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Muesli cup",
+        "price": 25,
+        "image": { "fields": { "file": { "url": "./images/muslicup.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": " Cheesy French Fry",
+        "price": 60,
+        "image": {
+          "fields": { "file": { "url": "./images/cheezyfrenchfries.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Flavoured Milk",
+        "price": 30,
+        "image": {
+          "fields": { "file": { "url": "./images/flavoured_milk.webp" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Strawberry Smoothie",
+        "price": 40,
+        "image": {
+          "fields": { "file": { "url": "./images/strawberry_smoothie.webp" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Fruit Salad Cup",
+        "price": 25,
+        "image": {
+          "fields": { "file": { "url": "./images/fruitsalad.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": " 100% Juice Popper ",
+        "price": 20,
+        "image": {
+          "fields": { "file": { "url": "./images/juicepopper.png" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": " Banana Bread",
+        "price": 15,
+        "image": {
+          "fields": { "file": { "url": "./images/bananabread.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": " Cold Drinks",
+        "price": 15,
+        "image": {
+          "fields": { "file": { "url": "./images/colddrinks.jpg" } }
+        }
+      }
+    }
+  ]
+}
