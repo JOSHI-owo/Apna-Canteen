@@ -2,6 +2,8 @@
 Apna Canteen is an online food delivery website created for colleges where students will be able to book their meals in the cofort of their classes.
 This was projected was created me during my bachelors degree. 
 
+Link: https://joshi-owo.github.io/Apna-Canteen/
+
 The website uses technology stack: HTML, CSSS, JavaScript, Flask, MySql.
 The frontend part of the website has been hosted in github.
 
